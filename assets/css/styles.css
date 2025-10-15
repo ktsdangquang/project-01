@@ -29,3 +29,38 @@ button {
   font-size: inherit;
   font-family: inherit;
 }
+
+.header {
+  height: 80px;
+  background-color: #e6f0ff;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding-top: 38px;
+}
+
+.nav__list {
+  margin-left: 64px;
+}
+
+.nav__list-items {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 28px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.nav__logs {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 100%;
+}
