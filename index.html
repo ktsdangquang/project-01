@@ -12,44 +12,204 @@
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
   </head>
   <body>
-    <!-- HEADER -->
-    <header class="header">
-      <div class="container">
-        <div class="row navbar">
-          <!-- Header Logo -->
-          <div class="col-1 logo nav__logo">
-            <img
-              src="/assets/img/besnik-logo.svg"
-              alt="Besnik"
-              class="nav__logo-img"
-            />
+    <main style="height: 5000px">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="container">
+          <div class="row navbar">
+            <!-- Header Logo -->
+            <div class="col-1">
+              <img
+                src="/assets/img/besnik-logo.svg"
+                alt="besnik-logo"
+                class="nav__logo-img"
+              />
+            </div>
+            <!-- Header Nav -->
+            <nav class="col-8 nav__list">
+              <ul class="nav__list-items">
+                <li>
+                  <a href="#" class="nav__list-link">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="nav__list-link">Features</a>
+                </li>
+                <li>
+                  <a href="#" class="nav__list-link">Services</a>
+                </li>
+                <li>
+                  <a href="#" class="nav__list-link">Resources</a>
+                </li>
+                <li>
+                  <a href="#" class="nav__list-link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- Header Logs -->
+            <div class="col-3 nav__logs">
+              <a href="#!" class="nav__logs-login">Log in</a>
+              <a href="#!" class="btn nav__logs-signup">Sign up</a>
+            </div>
           </div>
-          <!-- Header Nav -->
-          <nav class="col-8 nav__list">
-            <ul class="nav__list-items">
-              <li>
-                <a href="#" class="nav__list-link">Home</a>
-              </li>
-              <li>
-                <a href="#" class="nav__list-link">Features</a>
-              </li>
-              <li>
-                <a href="#" class="nav__list-link">Services</a>
-              </li>
-              <li>
-                <a href="#" class="nav__list-link">Resources</a>
-              </li>
-              <li>
-                <a href="#" class="nav__list-link">Contact</a>
-              </li>
-            </ul>
-          </nav>
-          <!-- Header Logs -->
-          <div class="col-3 nav__logs">
-            <a href="#" class="nav__logs-login">Log in</a>
-            <a href="#" class="btn nav__logs-signup">Sign up</a>
+        </div>
+      </header>
+      <!-- END HEADER -->
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container">
+          <div class="row">
+            <!-- Content -->
+            <div class="col-7 hero__content">
+              <p class="hero__content-sub">Welcome to Besnik Agency</p>
+              <h1 class="hero__content-title">
+                Discover a place you'll love to live.
+              </h1>
+              <p class="hero__content-desc">
+                get the best real estate deals first, before they hit the mass
+                market! HOT FORECLOSURE DEALS with one simple search.
+              </p>
+              <div class="btn hero__btn">More About Us</div>
+            </div>
+            <!-- Image -->
+            <div class="col-5 hero__img">
+              <img
+                class="hero__img-thumb"
+                src="./assets/img/house.svg"
+                alt="Besnik House"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CLIENTS -->
+      <div class="container">
+        <div class="clients">
+          <div class="row">
+            <div class="col-6 clients__info">
+              <img src="./assets/img/besnik-logo.svg" alt="besnik-logo" />
+              <p class="clients__desc">
+                More than 45,000+ companies trust besnik
+              </p>
+            </div>
+            <div class="col-6">
+              <div class="clients__items">
+                <div class="clients__items-starts">
+                  <img src="./assets/icons/start.svg" alt="start-icon" />
+                  <img src="./assets/icons/start.svg" alt="start-icon" />
+                  <img src="./assets/icons/start.svg" alt="start-icon" />
+                  <img src="./assets/icons/start.svg" alt="start-icon" />
+                  <img src="./assets/icons/start.svg" alt="start-icon" />
+                </div>
+                <span class="clients__stars-rate"
+                  >5 Star Ratings (2k+ Review)
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="clients__logo">
+              <img
+                class="clients__logo-img"
+                src="./assets/img/meundies-logo.png"
+                alt="logo-1"
+              />
+
+              <img
+                class="clients__logo-img"
+                src="./assets/img/slack-logo.png"
+                alt="logo-2"
+              />
+
+              <img
+                class="clients__logo-img"
+                src="./assets/img/amazon.png"
+                alt="logo-3"
+              />
+
+              <img
+                class="clients__logo-img"
+                src="./assets/img/woocommerce-logo.png"
+                alt="logo-4"
+              />
+
+              <img
+                class="clients__logo-img"
+                src="./assets/img/sitepoint-logo.png"
+                alt="logo-5"
+              />
+            </div>
+          </div>
         </div>
       </div>
-    </header>
+
+      <!-- GUIDES -->
+      <div class="guides">
+        <div class="container">
+          <div class="guides__content">
+            <h2 class="guides__title">How its works?</h2>
+            <p class="guides__desc">
+              Everything you need to know when you're looking to buy, rent, or
+              sell - all in one place.
+            </p>
+          </div>
+          <div class="row">
+            <div class="guides__list">
+              <ul>
+                <li class="guides__list-item">
+                  <img
+                    class="guides__list-img"
+                    src="./assets/icons/guide-1.svg"
+                    alt="guide-icon-1"
+                  />
+                  <h3 class="guides__list-title">Buyer Guides</h3>
+                  <a class="guides__link">
+                    <span class="guides__link-item">How to buy</span>
+                    <img
+                      class="guides__link-icon"
+                      src="./assets/icons/arrow.svg"
+                      alt="arrow"
+                    />
+                  </a>
+                </li>
+                <li class="guides__list-item">
+                  <img
+                    class="guides__list-img"
+                    src="./assets/icons/guide-1.svg"
+                    alt="guide-icon-1"
+                  />
+                  <h3 class="guides__list-title">Renter Guides</h3>
+                  <a class="guides__link">
+                    <span class="guides__link-item">How to buy</span>
+                    <img
+                      class="guides__link-icon"
+                      src="./assets/icons/arrow.svg"
+                      alt="arrow"
+                    />
+                  </a>
+                </li>
+                <li class="guides__list-item">
+                  <img
+                    class="guides__list-img"
+                    src="./assets/icons/guide-1.svg"
+                    alt="guide-icon-1"
+                  />
+                  <h3 class="guides__list-title">Seller Guides</h3>
+                  <a class="guides__link">
+                    <span class="guides__link-item">How to buy</span>
+                    <img
+                      class="guides__link-icon"
+                      src="./assets/icons/arrow.svg"
+                      alt="arrow"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn guides__btn">Sell Full Guidelines</div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
