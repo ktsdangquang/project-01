@@ -380,34 +380,124 @@ button {
 
 /* ------------STATS---------- */
 
+/* content {
+  width: 1018px;
+} */
+
 .stats {
-  margin-top: 75px;
+  margin-top: 75px 0 50px;
 }
 .stats__content {
+  position: relative;
+  display: flex;
+  align-items: center;
   padding-top: 50px;
   background-color: #ffd0d0;
+  /* padding: 0 30px; */
 }
 
 .starts__content-left {
-  height: 300px;
-  background-color: #ff0000;
 }
 
 .starts__content-right {
-  height: 300px;
-  background-color: #00ff00;
+  /* height: 300px; */
+  /* background-color: #00ff00; */
 }
 
 .stats__content-img {
   display: block;
   margin-left: auto;
-  width: 100%;
+  width: 72%;
+  height: 460px;
   border-radius: 12px;
-  background-color: #0000ff;
   object-fit: cover;
 }
 
 .stats__trend {
-  width: 230px;
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  width: 239px;
   background-color: #fff;
+  border-radius: 12px 0 12px 12px;
+  padding: 45px 22px 40px 22px;
+}
+
+.stats__trend-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.stats__trend-value {
+  color: #000339;
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 1;
+}
+
+.stats_trend-sub {
+  position: relative;
+  color: #a7a7a7;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.stats_trend-sub::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  background-color: #e9e9e9;
+  width: 194px;
+  height: 1.2px;
+}
+
+.avatar-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.avatar-group {
+  /* display: block; */
+}
+
+.avatar {
+  width: 16.5px;
+  height: 16.5px;
+  border-radius: 50%;
+}
+
+.starts__content-right {
+  display: block;
+  margin: auto;
+  width: 310px;
+}
+
+.stats__trend-title {
+  position: relative;
+  color: #000339;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1.28;
+  margin-bottom: 20px;
+}
+
+.stats__trend-title::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  background-color: #000339;
+  width: 41px;
+  height: 4px;
+  border-radius: 99px;
+}
+
+.stats__trend-desc {
+  color: #5a6473;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.88;
 }
