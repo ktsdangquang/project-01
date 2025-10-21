@@ -455,19 +455,30 @@ button {
   height: 1.2px;
 }
 
+/* AVATAR */
+
 .avatar-block {
   display: flex;
   flex-wrap: wrap;
+  gap: 16px 14px;
+  margin-top: 52px;
 }
 
 .avatar-group {
-  /* display: block; */
+  display: flex;
 }
 
 .avatar {
-  width: 16.5px;
-  height: 16.5px;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
+  object-fit: cover;
+  margin-left: -3px;
+  font-weight: 450;
+  font-size: 0.7rem;
+  line-height: 16px;
+  text-align: center;
+  background: var(--bg-color, #fff);
 }
 
 .starts__content-right {
