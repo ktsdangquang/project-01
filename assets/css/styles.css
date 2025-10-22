@@ -47,7 +47,7 @@ button {
 .header {
   position: sticky;
   top: -30px;
-  padding: 10px 0;
+  padding-top: 10px;
   height: 80px;
   background-color: #e6f0ff;
 }
@@ -58,12 +58,11 @@ button {
   align-items: center;
   justify-content: center;
   height: 80px;
-  padding: 20px 24px 0;
+  padding-top: 10px;
   background-color: orange;
 }
 
 .nav__list {
-  margin-left: 64px;
 }
 
 .nav__list-items {
@@ -73,6 +72,7 @@ button {
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 1;
+  margin-left: 64px;
 }
 
 .nav__logs {
@@ -135,14 +135,20 @@ button {
   line-height: 1;
 }
 
+.hero__img {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
 .hero__img-thumb {
-  margin-left: -18px;
+  width: 100%;
 }
 
 .clients {
   margin-top: 88px;
   padding-top: 44px;
-  background-color: #ffd0d0;
+  /* background-color: #ffd0d0; */
 }
 
 .clients__desc {
@@ -189,7 +195,7 @@ button {
   display: flex;
   align-items: center;
   margin-top: 40px;
-  background-color: rgb(190, 190, 190);
+  /* background-color: rgb(190, 190, 190); */
   padding-bottom: 80px;
   width: 100%;
 }
@@ -393,8 +399,7 @@ button {
   display: flex;
   align-items: center;
   padding-top: 50px;
-  background-color: #ffd0d0;
-  /* padding: 0 30px; */
+  /* background-color: #ffd0d0; */
 }
 
 .starts__content-left {
@@ -591,7 +596,7 @@ button {
 .footer {
   background-color: #e3e3e3;
   margin-top: 55px;
-  padding-top: 50px;
+  padding: 50px 0 60px 0;
 }
 
 .footer_heading {
@@ -633,12 +638,30 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #002366;
+  background-color: #f9f9f9;
   width: 28px;
   height: 28px;
   border-radius: 3px;
 }
 
+.footer__social-link:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
 .footer__social-icon {
   height: 12px;
+}
+
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.footer__copyright {
+  color: #c2c2c2;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1;
 }
